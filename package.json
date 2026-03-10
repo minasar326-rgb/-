@@ -1,0 +1,30 @@
+{
+  "name": "student-attendance",
+  "version": "1.0.0",
+  "description": "نظام حضور وغياب الطلاب - Student Attendance Management System",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "keywords": [
+    "attendance",
+    "students",
+    "school",
+    "mongdb",
+    "nodejs"
+  ],
+  "author": "Admin",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "docx": "^8.5.0",
+    "file-saver": "^2.0.5"
+  }
+}
+
